@@ -6,4 +6,7 @@ public class MsSQL {
 
     Connection con;
 
+    public Connection getCon() {
+        return con;
+    }
 }
